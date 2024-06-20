@@ -1,0 +1,147 @@
+FLOW CHARTS 
+
+1)TERMINATOR     ---START/END     SHAPE  iPhone vala dyanic 
+2)SHAPE - parallelgram   INPUT/OUTPUT   uske andar jaise     read a 
+3) rectange box       process hota h jaise     i=i+1
+4) diamond         decision making box        jaise is i=-?
+eg of a program:
+
+Start 
+Read a,b
+sum=a+b
+print sum
+end
+
+ye h ek flow chart 
+
+
+Pseudocode: way of generic representing look 
+
+eg:
+Sum of  2 no 
+
+
+read 2 no. ,a&b
+sum=a+b
+print sum 
+
+
+2 eg 
+read a 
+read b
+let sum =0
+sum =a+b
+print sum 
+
+
+
+
+
+ye dono same hi h bs likhne ka tarika thoda casual h 
+
+
+
+
+
+one more eg-
+simple interest ka h 
+
+
+Start
+Read P,R,T 
+SI =p*R*T/100
+Print SI
+END
+
+
+more eg-
+AVERAGE of 3 sum:
+
+
+Start
+Read a,b,c
+avg=(a+b+c)/3
+print avg
+end
+
+
+
+NOW SHOW IS A >B or not?
+
+Start 
+Read a,b
+IS a<b?  YES/NO
+If yes        print YES
+IF no        print NO
+END 
+
+
+
+READ a&b
+if a<b
+Print yes
+else 
+print no
+end
+
+
+
+
+
+
+
+
+
+
+next eg 
+Odd or even 
+
+FLow chart 
+
+Start 
+Read n
+is n%2=0       if yes print even      if no print odd 
+end
+
+
+
+eg-SHOW if a number is negative zero or positive 
+
+start 
+read n 
+is n>0 if yes    print positive 
+if is n<0 then yes print negstive      if no print zero
+end
+
+
+
+
+
+
+
+Q valid triangle or not 
+A+B>C
+B+C>A
+c+A>B
+
+
+
+
+
+
+
+
+
+Q LOOP QUESTION
+
+Start
+Read n
+LEt number =1
+is number<n           if yes then print number 
+and then number =number +1
+if no  then end 
+32:
+
+  
+
+  
