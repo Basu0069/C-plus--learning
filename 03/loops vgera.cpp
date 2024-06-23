@@ -103,4 +103,28 @@ int main(){
         }
     }
 }
-20:
+
+// WHat if u want to make so many choice then what will you do 
+if  
+else if 
+else 
+this you will do okie 
+
+#include<iostream>
+using namespace std;
+int main(){
+    int a;
+    cout<<"enter the value of a "<<endl;
+    cin>>a;
+
+    if(a>0){
+        cout<<"A is positive";
+    }
+    else if(a<0){
+        cout<<"A is negative"<< endl;
+    }
+    else{
+        cout<<"A is 0"<<endl;
+    }
+}
+26
