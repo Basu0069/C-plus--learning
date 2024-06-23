@@ -127,4 +127,7 @@ int main(){
         cout<<"A is 0"<<endl;
     }
 }
-26
+
+
+
+// DONE questions 
