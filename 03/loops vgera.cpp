@@ -129,28 +129,4 @@ int main(){
 }
 
 
-
-// DONE questions 
-
-// okoko
-// done with wokr 
-// ok so
-
-//  this is nothing  so yh
-//  alr budyy
-// yep yep
-//  thats enough for today 
-//  huh?
-// 6 contribution ho gyi 
-// 7 contribution ho gyi 
-// so today is last 
-// hihihi
-// hnn
-// iiii
-// yup 
-// thats it 
-// today is 26 june 
-//  soo
-// bs bs 
-// nii
-// koko
+//  hese to go 
