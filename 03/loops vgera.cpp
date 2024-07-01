@@ -128,17 +128,5 @@ int main(){
     }
 }
 
+//  so here we come 
 
-//  hese to go 
-//  what u saying 
-// kjjj
-// kokok
-// giiihi
-// hihih
-// hefheif
-// lookl
-// hgigih
-// bihih
-// kokk
-// iyh8iyh8i
-// plpl
