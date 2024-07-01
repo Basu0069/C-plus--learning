@@ -128,11 +128,35 @@ int main(){
     }
 }
 
-//  so here we come 
-// wiat hwat 
-// okok
-// kokok
-// push 
-// push
-// total contribution 
+// Question 
+// jaise a-z tk lowercase h so u hv to print ki ye lowercase h 
+// jaise A-Z tk h so u hv to print ki ye upper case h 
+// jaise 0-9 h so u hv to print ki ye numeric h oke 
+
+
+
+
+
+WHILE LOOP 
+ #include<iostream>
+ using namespace std;
+
+ int main(){
+    int n;
+    cin>>n;
+
+    int i=1;
+
+    while(i<=n){
+        cout<<i<<" ";
+        i=i+1;
+    }
+ }
+
+//  SUM OF N numbers 
+ 34:15
+ 
+
+
+
 
