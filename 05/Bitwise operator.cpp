@@ -86,5 +86,24 @@ eg 17>>2     toh iska answer aayega 4
     cout<<(17>>1)<<endl;
     cout<<(17>>2)<<endl;
     cout<<(19<<1)<<endl;
-    cout<<(19<<2)<<endl;
+    cout<<(21<<2)<<endl;
  }
+
+
+// operators 
+i++   - post increment 
+++i -   pre increment 
+
+inka mtlb h ki dekh 
+
+int i =4; 
+int a = i++;
+a ? i? 
+a ki value hogi 4 aur i ki value hogi 5 
+
+
+
+
+
+
+   
