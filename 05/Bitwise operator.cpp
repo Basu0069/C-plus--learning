@@ -66,4 +66,25 @@ padding with 0 hoti h
 
 
 
+
 negative mei  padding compiler dependednt hota h okie 
+
+
+
+
+eg 17>>1     toh aise iska answer 8 
+eg 17>>2     toh iska answer aayega 4 
+19<<1        toh iska answer aayega 38 
+21<<2        toh iska answer aayega 84 
+ 
+
+
+ #include<iostream>
+ using namespace std;
+
+ int main(){
+    cout<<(17>>1)<<endl;
+    cout<<(17>>2)<<endl;
+    cout<<(19<<1)<<endl;
+    cout<<(19<<2)<<endl;
+ }
