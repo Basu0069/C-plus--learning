@@ -24,5 +24,6 @@ n = (n-1)+(n-2)
 // joopok
 // iooio
 // ooioi
+// ipipi
 
  38:50  
