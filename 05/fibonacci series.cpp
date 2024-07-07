@@ -19,6 +19,7 @@ n = (n-1)+(n-2)
         b=nextNumber;
     }
  }
+// ijijiji 
 
 
  38:50  
