@@ -31,5 +31,6 @@ n = (n-1)+(n-2)
 // 12121
 // /kijihih
 // \iohjihig
+// iuouo
 
  38:50  
