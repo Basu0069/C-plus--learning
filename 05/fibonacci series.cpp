@@ -34,5 +34,6 @@ n = (n-1)+(n-2)
 // iuouo
 // ououo
 // juoyuoy
+// oyyy
 
  38:50  
