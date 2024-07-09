@@ -19,24 +19,38 @@ n = (n-1)+(n-2)
         b=nextNumber;
     }
  }
-// ijijiji 
-// huihohih
-// joopok
-// iooio
-// ooioi
-// ipipi
-// 2932
-// bcbv
-// 3i3i3
-// 12121
-// /kijihih
-// \iohjihig
-// iuouo
-// ououo
-// juoyuoy
-// oyyy
-// uyyy
-// yhytt
-// trrr
+  
 
- 38:50  
+
+
+
+//   CHECK if a number is prime or not 
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int n;
+    cout<<" enter the value of n" <<endl;
+    cin>>n;
+
+    bool isPrime =1;
+
+    for(int i =2;i<n;i++){
+        if(n%i ==0){
+            isPrime=0;
+            break;
+        }
+    }
+
+    if(isPrime ==0){
+        cout<<" Not a Prime Number"<<endl;
+    }
+    else{
+        cout<<"is a Prime Number"<<endl;
+    }
+}
+
+
+
