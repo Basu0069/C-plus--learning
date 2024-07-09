@@ -54,3 +54,9 @@ int main(){
 
 
 
+// continue---> skip iteration okie 
+
+
+
+
+
