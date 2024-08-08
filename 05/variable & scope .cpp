@@ -44,8 +44,3 @@ int main(){
     // NUmber of bits vala question h leetcode pe 191 
     
 }
-// iijij
-// iihihi
-// ugugug
-// ggfgffg
-// gggg
