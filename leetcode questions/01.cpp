@@ -21,6 +21,9 @@ int reverse(int x){
 }
 };
 
-// NOT used  
-// ajd
+// NOT USED 
+
+
+QUESTION 2 
+
 
