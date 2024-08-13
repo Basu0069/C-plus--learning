@@ -109,4 +109,17 @@ public:
 };
 
 
+Question 231 
+POWER OF TWO 
+
+take n= 2(power2)
+agr koi no. h toh true otherwise false 
+
+one option - aap isko mod se kr sakte ho like 14%=0 
+16%2=0 
+
+other option 
+n=16 
+toh divide by 2 krte jao jb k 1 na aajaye answer 
+
 
