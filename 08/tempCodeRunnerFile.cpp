@@ -1,21 +1,20 @@
 #include<iostream>
 using namespace std;
 
-int main() {
-
-    int num =2;
-
-    cout << endl;
-    switch (num){
-
-        case 1: cout<< "First" <<endl;
-        break;
-
-        case 2: cout<< "Second" <<endl;
-        break;
-
-        default: cout << "It is default case" <<endl;
+void printCounting(int n){
+    for(int i =1; i<=n;i++){
+        cout<< i << " ";
     }
+    cout<<endl;
+}
 
-    cout << endl;
+int main{
+
+    int n;
+    cin >>n;
+
+    printCounting(n);
+
+
+    return 0;
 }
