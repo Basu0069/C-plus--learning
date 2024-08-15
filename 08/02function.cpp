@@ -190,13 +190,55 @@ bool  isPrime(int n){
             return 0;
         }
     }
+return 1;
 }
 
 
 int main(){
+    int n;
+    cin>> n;
 
+    if(isPrime(n)){
+        cout<< n <<"is a prime no." <<endl;
+    }
+    else{
+        cout<< n <<"not a prime no."<<endl;
+    }
 
 
     return 0;
 }
-// 58:15
+
+// Function mei return type hona chaiye 
+
+
+
+// HW questions 
+Q1 A.p = (3 * n + 7)
+You hv to insert n value in it and find the output of the next nth term okie 
+eg - 3*3+7 = 9+7=16
+
+
+Q2 a&b 
+take input 
+Find total no. of set bits in a&b 
+
+eg- a-2-> 10
+b-3 -> 11
+Answer = 3 aagya 
+
+
+Q3 -> Fibonacci 
+input n 
+out put nth fibonacci no. 
+
+n=5 
+toh 3 answer 
+
+
+
+
+
+
+
+
