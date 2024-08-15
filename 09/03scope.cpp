@@ -19,7 +19,7 @@ int main(){
 
     int arr[3] = {1,2,3};
 
-    update(arr, 3);
+    update(arr, 3);// address de diya h pura arr ok
 
     for(int i=0;i<3;i++){
         cout << arr[i] << " ";
@@ -28,4 +28,17 @@ int main(){
     return 0;
 }
 
-// YAHA PE MAIN FUNCTION MEI VALUE UPDATE KESE HOGYI?
+// QUestion 
+Print sum of all elements in an array 
+
+
+
+
+
+
+
+
+
+
+
+
