@@ -30,6 +30,7 @@ int main(){
 
 // QUestion 
 Print sum of all elements in an array 
+POwer of 2x 
 
 
 
