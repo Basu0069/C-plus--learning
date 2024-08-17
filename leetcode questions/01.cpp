@@ -109,6 +109,8 @@ public:
 };
 
 
+// NOT USED 
+
 Question 231 
 POWER OF TWO 
 
@@ -141,7 +143,7 @@ public:
     }
 };
 
-
+// NOT USED 
 
 OTHER METHOD 
 class Solution {
@@ -162,3 +164,4 @@ public:
     }
 };
 
+// NOT USED 
