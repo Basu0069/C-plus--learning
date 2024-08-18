@@ -23,4 +23,4 @@ int main(){
 // ye dono n alag lag h 
 
 // dummy(n) iske andar copy bn rhi h okie 
- 
+//  .
