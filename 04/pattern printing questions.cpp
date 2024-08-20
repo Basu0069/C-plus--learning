@@ -171,19 +171,15 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-
-    int i =1;
-
-    while(i<=n){
-        int j=1;
-        while(j<=i){
+    
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
             cout<<(i-j+1);
-            j=j+1;
         }
         cout<<endl;
-        i=i+1;
     }
 }
+
 
 
 
@@ -200,26 +196,18 @@ A+i-1
 
 #include<iostream>
 using namespace std;
-
 int main(){
-
     int n;
     cin>>n;
-
-    int row =1;
-    while(row <= n){
-        int col =1;
-
-        while(col <=n){
-            char ch='A' + row -1;
-            cout<<ch;
-            col =col +1;
+    char a='A';
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            cout<<a;
         }
+        a++;
         cout<<endl;
-        row =row +1;
     }
 }
-
  
 
 
@@ -290,6 +278,7 @@ C C C
 formula used  
 'A' +row -1 
 
+// here only 
 
 #include<iostream>
 using namespace std;
