@@ -173,8 +173,6 @@ int main{
     cin >>n;
 
     printCounting(n);
-
-
     return 0;
 }
 
