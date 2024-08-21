@@ -19,7 +19,6 @@ int main(){
 
     cout << "Value at 15 index " << number[14] << endl;
 
-
     // initiallising the array 
     int second[3]={5,7,11};
 
