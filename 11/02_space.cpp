@@ -14,4 +14,3 @@ cin>>n;
 vector<int> v(n);
 lenght n h toh 
 space complexity -> O(n)
-// .
