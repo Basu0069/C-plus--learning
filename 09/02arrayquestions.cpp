@@ -106,7 +106,7 @@ int main(){
 // Q array - {1,2,3,4}
 // {2,4,6,8}
 // ={2,4} answer 
-
+// not done 
 
 // Q PAir sum 
 // Q Triplet sum 
