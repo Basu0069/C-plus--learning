@@ -1,3 +1,4 @@
+//  NOT DONE 
  Q find pivot(graph ki minimum value) in an array 
 
  ip-> {1,2,3,7,9}-> sorted 
