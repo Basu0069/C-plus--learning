@@ -69,6 +69,6 @@ complexity - O(n^2)
  USE WHEN- 
  array ka size small hoga ok use selection sort 
 
-  
+//   ok 
 
 
