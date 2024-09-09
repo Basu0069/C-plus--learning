@@ -87,5 +87,37 @@ mtlb ki ab 5 ko ek toh p bi point kr rha h aur num bi 5 ko point kr rha h smja
  using namespace std;
 
  int main(){
-    31:45
+   int num = 5;
+   int a = num;
+   a++;
+
+   cout << num <<endl;
+
+   int *p = &num;
+   cout<< " before " << num << endl;
+   (*p)++;
+   cout << "after " << num << endl;
+
+
+// copying a pointer 
+int *q = p;
+cout << p <<" -" << q << endl;
+cout<< *p << "- " << *q <<  endl; 
+
+
+//  important concepy 
+int i =3;
+int *t = &i;
+// cout << (*t)++ << endl;
+*t = *t +1;
+cout << *t << endl;
+cout << "before t " << t<<endl;
+t= t+1;
+cout <<"after t "<< t << endl;
+// t 4 byte aage bd gya h okie 
+
+
+
+
+   return 0;
  }
