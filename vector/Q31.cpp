@@ -117,3 +117,4 @@ int main(){
 
 v.insert(v.begin() + 3 , 5);
 v.erase(unique(v.begin() , v.end()) , v.end());
+..
