@@ -38,15 +38,25 @@ class Hero{
 int main(){
 
 // static allocation 
+
 Hero a;
+a.setHealth(80);
+a.setLevel('B');
 cout <<" level is "<< a.level << endl;
-cout <<<" health is "<< a.getHealth() << endl; // health tera private member h toh use gethealth okie samka 
+cout <<" health is "<< a.getHealth() << endl; // health tera private member h toh use gethealth okie samka 
 
 // Dynamic 
-Hero *b = new Hero;
-cout <<" level is "<< (*b).level << endl;
-cout <<<" health is "<< (*b).getHealth() << endl; // health tera private member h toh use gethealth okie samka 
 
+Hero *b = new Hero;
+b->setLevel('A');
+b->setHealth(70);
+cout <<" level is "<< (*b).level << endl;
+cout <<" health is "<< (*b).getHealth() << endl; // health tera private member h toh use gethealth okie samka 
+
+// another way of writing the same is 
+
+cout <<" level is "<< b->level << endl;
+cout <<" health is "<< b->getHealth() << endl; //  
 
 
 // creation of object
@@ -75,12 +85,10 @@ return 0;
 
 
 // Access Modifier-
-public 
-private 
-protected 
+// public 
+// private 
+// protected 
 
-
-32:51 stop 
 
 
 
