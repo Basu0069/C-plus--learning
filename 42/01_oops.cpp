@@ -47,7 +47,7 @@ cout <<" health is "<< a.getHealth() << endl; // health tera private member h to
 
 // Dynamic 
 
-Hero *b = new Hero;
+Hero *b = new Hero; // Hero class h ismei 
 b->setLevel('A');
 b->setHealth(70);
 cout <<" level is "<< (*b).level << endl;
