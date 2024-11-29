@@ -14,6 +14,8 @@ int main(){
         a.push_back(element);
     make_heap(a.begin(),a.end());
     }
+
+    
 cout<<endl;
     for(int i=0;i<a.size();i++){
         cout<<a[i]<<" ";
