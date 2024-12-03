@@ -4,6 +4,10 @@ and if the array is in linear form then print
 Using linear search 
 303 found at index 2 like this 
 
+
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
