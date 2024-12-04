@@ -39,6 +39,9 @@ int main(){
         for(int i = 0; i < even.size(); i++){
             cout<< even[i] <<" ";
         }
+
+
+        
     }
 
     INPUT:
