@@ -15,3 +15,7 @@ int main(){
     cout<<every<<endl;
     
 }
+
+
+
+
