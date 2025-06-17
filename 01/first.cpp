@@ -5,7 +5,7 @@ int main()
     int a;
     cout<<"enter no.";
     cin>>a;
-    cout<<a<<ends<<"Learn Coding...";
+    cout<<a<<endl<<"Learn Coding...";
     return 0;
 }
 // SO THIS IS THE FIRST CODE
