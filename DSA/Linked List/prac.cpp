@@ -2,51 +2,50 @@
 using namespace std;
 
 class Node{
-    public:
+    public: 
     int data;
     Node* next;
 
-
     Node(int data){
         this->data= data;
-        this->next = NULL;
+        this->next= NULL;
     }
-
-
+    
 };
 
 
-void insertAtHead(Node* &head,int d){
+void insertathead(Node* &head, int d){
+
     Node* temp = new Node(d);
-    temp-> next = head;
-    head= temp;
+    temp->next = head;
+    head = temp;
 }
 
+
 void print(Node* &head){
+
     Node* temp = head;
-    while(temp!= NULL){
-        cout<<temp-> data<<" ";
-        temp = temp-> next;
+    while(temp!=NULL){
+        cout<<temp->data<<" ";
+        temp = temp->next;
     }
     cout<<endl;
 }
 
 
 
-
-
-
 int main(){
-Node* node1 = new Node(10);
 
-Node* head= node1;
-print(head);
+    Node* node1 = new Node(10);
 
+    cout<<node1->data<<endl;
+    cout<<node1->next<<endl;
 
-insertAtHead(head,20);
-print(head);
-\
+    Node* head = node1;
+    print(head);
 
-// updated
+    insertathead(head, 29);
+    print(head);
+
 
 }

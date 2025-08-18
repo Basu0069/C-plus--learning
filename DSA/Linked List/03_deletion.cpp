@@ -15,9 +15,21 @@ class Node{
         this->data= data;
         this->next= NULL;
     }
+
+    // destructor 
+    ~Node(){
+        int value = this -> data;
+        // memory free 
+        if(this-> next !=NULL){
+            delete next;
+            this -> next = NULL;
+        }
+        cout<< "memory is free for node with data " << value << endl;
+    }
+
 };
 
-
+ 
 
 void insertAtHead(Node* &head, int d ){
 // new node created here 
@@ -55,10 +67,7 @@ if(position == 1){
     return;
 }
 
-// agr aapko length pta hogi linked list ki toh aap ye kr skte the tail update krne ke liye 
-// if(len == position-1){
-//     insertAtTail(tail,d);
-// }
+
 
 
 
@@ -89,6 +98,34 @@ if(position == 1){
 
 }
 
+void deleteNode(int position, Node* &head){
+
+    // deleting at first or start node 
+    if(position == 1){
+        Node* temp = head;
+        head = head -> next;
+        // memory free start node 
+        temp-> next = NULL;
+        delete temp;
+    }
+    else{
+        // deleting any middle node or last node 
+        Node* curr = head;
+        Node* prev = NULL; 
+
+        int cnt = 1;
+        while(cnt < position){
+            prev = curr;
+            curr = curr -> next;
+            cnt++;
+        }
+        prev -> next = curr -> next;
+        curr -> next = NULL;
+        delete curr;
+         
+    }
+}
+
 int main(){
     // created a new node 
 
@@ -104,17 +141,7 @@ Node* tail= node1;
 print(head);
 
 
-// inserting at head 
-// u can do this too if u cwant to check head okay 
-// insertAtHead(head,12);
-// print(head);
 
-// insertAtHead(head,15);
-// print(head);
-
-
-
-// inserting at tail 
 
 insertAtTail(tail,12);
 print(head);
@@ -123,7 +150,6 @@ insertAtTail(tail,15);
 print(head);
 
 
-// ab 12 aur 15 ke beech mei 24 dal do mtlb third postion mei 24 dal dod 
 
 InsertAtPosition(tail,head,4,22);
 print(head);
@@ -131,6 +157,23 @@ print(head);
 
 cout << "head " << head -> data <<endl;
 cout << "tail " << tail -> data <<endl;
+
+
+
+// deleteNode(1,head);
+// print(head);
+
+
+// deleteNode(4,head);
+// print(head);
+
+deleteNode(3,head);
+print(head);
+
+
+cout << "head " << head -> data <<endl;
+cout << "tail " << tail -> data <<endl;
+
 
 
 }
