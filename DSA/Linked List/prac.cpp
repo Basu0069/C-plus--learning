@@ -1,51 +1,39 @@
-#include<iostream>
+#include <iostream>
+#include <queue>
+#include <vector>
 using namespace std;
 
-class Node{
-    public: 
-    int data;
-    Node* next;
+int minCost(vector<int> &ropes)
+{
+      priority_queue<int, vector<int>, greater<int>> pq;
 
-    Node(int data){
-        this->data= data;
-        this->next= NULL;
-    }
-    
-};
+      for (int x : ropes)
+            pq.push(x);
 
+      int cost = 0;
 
-void insertathead(Node* &head, int d){
+      while (pq.size() > 1)
+      {
+            int first = pq.top();
+            pq.pop();
 
-    Node* temp = new Node(d);
-    temp->next = head;
-    head = temp;
+            int second = pq.top();
+            pq.pop();
+
+            int sum = first + second;
+            cost += sum;
+
+            pq.push(sum);
+      }
+
+      return cost;
 }
 
+int main()
+{
+      vector<int> ropes = {4, 3, 2, 6};
 
-void print(Node* &head){
+      cout << minCost(ropes);
 
-    Node* temp = head;
-    while(temp!=NULL){
-        cout<<temp->data<<" ";
-        temp = temp->next;
-    }
-    cout<<endl;
-}
-
-
-
-int main(){
-
-    Node* node1 = new Node(10);
-
-    cout<<node1->data<<endl;
-    cout<<node1->next<<endl;
-
-    Node* head = node1;
-    print(head);
-
-    insertathead(head, 29);
-    print(head);
-
-
+      return 0;
 }
